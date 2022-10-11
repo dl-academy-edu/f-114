@@ -1,3 +1,5 @@
+/* Сбросил стили базовые */
+
 * {
     box-sizing: border-box;
 }
@@ -17,11 +19,18 @@ img {
 
 a {
     text-decoration: none;
+    color: #333333;
 }
+
 
 .container {
     max-width: 1180px;
     margin: 0 auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;  
 }
 
 li {
@@ -43,4 +52,31 @@ li {
     text-align: center;
     padding: 11px;
     cursor: pointer;
+}
+
+/* стилизация хедера */
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-top: 33px;
+    margin-bottom: 33px;
+}
+
+.header__list {
+    display: flex;
+    margin-right: auto;
+}
+
+.header__list-item {
+    margin-right: 15px;
+}
+
+.header__contact {
+    display: flex;
+    align-items: center;
+}
+
+.header__contact-phone {
+    margin-right: 24px;
 }

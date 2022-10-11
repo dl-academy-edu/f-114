@@ -9,56 +9,85 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/normolize.css">
     <title>Main</title>
 </head>
 <body>
-    <header class="container">
+    <header class="container header">
         <a href="/index.html">
-            <img src="./image/logo.svg" alt="logo" width="142" height="83">
+            <img src="./image/logo.svg" alt="logo" width="142" height="83" class="logo">
         </a>
-        <ul>
-            <li><a href="#">Catalog</a></li>
-            <li><a href="#">Servises</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">About Us</a></li>
+        <ul class="header__list">
+            <li class="header__list-item"><a href="#">Catalog</a></li>
+            <li class="header__list-item"><a href="#">Servises</a></li>
+            <li class="header__list-item"><a href="#">Blog</a></li>
+            <li class="header__list-item"><a href="#">About Us</a></li>
         </ul>
-        <ul>
-            <li><a href="tel:79008900846">8(900)890-08-46</a></li>
-            <li><a href="/contact.html" class="btn">Contact Us</a></li>
+        <ul class="header__contact">
+            <li class="header__contact-item header__contact-phone"><a href="tel:79008900846">8(900)890-08-46</a></li>
+            <li class="header__contact-item"><a href="/contact.html" class="btn">Contact Us</a></li>
         </ul>
     </header>
     <main>
         <section class="banner">
-            <div class="container">
-                <h1>The world leading cleaning company</h1>
-                <button type="button" class="btn">Get a Free Estimate</button>
-                <img src="./image/banner.jpg" alt="banner" width="1400" height="720">
+            <div class="container banner__wrap">
+                <div class="banner_wr">
+                    <span>01</span>
+                    <ul class="handle">
+                        <li class="handle__item"></li>
+                        <li class="handle__item"></li>
+                        <li class="handle__item"></li>
+                        <li class="handle__item"></li>
+                    </ul>
+                </div>
+                <div class="banner__content">
+                    <h1 class="title">The world leading cleaning company</h1>
+                    <button type="button" class="btn">Get a Free Estimate</button>
+                </div>
             </div>
         </section>
-        <section>
+        <section class="container">
             <h2>our most popular servises</h2>
-            <ul>
-                <li>
+            <ul class="servises__list">
+                <li class="servises__list-item">
                     <img src="./image/carper_cl.jpg" alt="carper cleaning">
                     <h3>carper cleaning</h3>
                     <p>When you choose Chem-Dry, you get deeper clean, faster-drying carpet and healthier home for you.</p>
                     <a class="btn" href="#">Learn more</a>
                 </li>
-                <li>
+                <li class="servises__list-item">
+                    <img src="./image/carper_cl.jpg" alt="carper cleaning">
+                    <h3>carper cleaning</h3>
+                    <p>When you choose Chem-Dry, you get deeper clean, faster-drying carpet and healthier home for you.</p>
+                    <a class="btn" href="#">Learn more</a>
+                </li>
+                <li class="servises__list-item">
+                    <img src="./image/carper_cl.jpg" alt="carper cleaning">
+                    <h3>carper cleaning</h3>
+                    <p>When you choose Chem-Dry, you get deeper clean, faster-drying carpet and healthier home for you.</p>
+                    <a class="btn" href="#">Learn more</a>
+                </li>
+                <li class="servises__list-item">
+                    <img src="./image/carper_cl.jpg" alt="carper cleaning">
+                    <h3>carper cleaning</h3>
+                    <p>When you choose Chem-Dry, you get deeper clean, faster-drying carpet and healthier home for you.</p>
+                    <a class="btn" href="#">Learn more</a>
+                </li>
+                <li class="servises__list-item">
                     <img src="./image/cgc.jpg" alt="carper cleaning">
                     <h3>carper cleaning</h3>
                     <p>One of the nicest touches to the basic architectural components of a homeis ceramic or stone tile
                         in kitchens, bathrooms</p>
                     <a class="btn" href="#">Learn more</a>
                 </li>
-                <li>
+                <li class="servises__list-item">
                     <img src="./image/pet.jpg" alt="carper cleaning">
                     <h3>carper cleaning</h3>
                     <p>Here at Chem-Dry,
                         we love our pets. They brighten up our day and they’re always there to support us, through thick</p>
                     <a class="btn" href="#">Learn more</a>
                 </li>
-                <li>
+                <li class="servises__list-item">
                     <img src="./image/commerc.jpg" alt="carper cleaning">
                     <h3>carper cleaning</h3>
                     <p>Companies spend millions of dollars on carpeting, upholstery, leather and area rugs</p>
@@ -66,13 +95,13 @@
                 </li>
             </ul>
         </section>
-        <section>
-            <div>
+        <section class="about container">
+            <div class="about__wrap">
                 <h2>Why Haley's Chem-Dry?</h2>
                 <p>Chem-Dry’s mission is helping people live healthy lives, which starts with clean carpets and a healthy home. Our proprietary hot carbonating extraction cleaning process penetrates deep into the fibers, removing an average of 98% of common household allergens from carpets, upholstery and rugs and 89% of the airborne bacteria in your home when a sanitizer is added.* Plus, our green-certified solution, The Natural®, contains no soaps or detergents so it’s safe and non-toxic for your family and pets.</p>
                 <a class="btn" href="#">Learn more</a>
             </div>
-            <img src="./image/cleaning.jpg" alt="Cleaning process">
+            <img src="./image/cleaning.jpg" class="about-img" alt="Cleaning process">
         </section>
         <section>
             <h2>Awards</h2>
