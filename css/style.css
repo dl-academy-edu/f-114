@@ -15,6 +15,7 @@
 }
 
 .banner {
+    background: #E0E7ED; 
     background-image: url('/image/banner.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -33,6 +34,17 @@
     margin-bottom: 50px;
     margin: 0;
     letter-spacing: -1px;
+}
+
+.servises__title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 100%;
+    color: #00559D;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .servises__list {
@@ -75,3 +87,37 @@
 .about-img {
     z-index: 1;
 }
+
+.footer {
+    background-color: #00559D;
+}
+
+.popup-form {
+    width: 680px;
+    padding: 50px;
+}
+
+
+.fieldset-double {
+    display: flex;
+    justify-content: space-between;
+}
+
+.label-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.field-inner__wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+/* input */
+input {
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+}
+
+
+/* popup  */

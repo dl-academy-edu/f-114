@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:ital,wght@0,300;1,200;1,300&family=Roboto:ital,wght@0,300;0,900;1,300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/common.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.min.css">
     <link rel="stylesheet" href="./css/normolize.css">
     <title>Main</title>
 </head>
@@ -31,15 +34,6 @@
     <main>
         <section class="banner">
             <div class="container banner__wrap">
-                <div class="banner_wr">
-                    <span>01</span>
-                    <ul class="handle">
-                        <li class="handle__item"></li>
-                        <li class="handle__item"></li>
-                        <li class="handle__item"></li>
-                        <li class="handle__item"></li>
-                    </ul>
-                </div>
                 <div class="banner__content">
                     <h1 class="title">The world leading cleaning company</h1>
                     <button type="button" class="btn">Get a Free Estimate</button>
@@ -47,7 +41,7 @@
             </div>
         </section>
         <section class="container">
-            <h2>our most popular servises</h2>
+            <h2 class="servises__title">our most popular servises</h2>
             <ul class="servises__list">
                 <li class="servises__list-item">
                     <img src="./image/carper_cl.jpg" alt="carper cleaning">
@@ -129,7 +123,7 @@
         </div>
         <iframe src="https://yandex.ru/map-widget/v1/-/CCUVzQCbHB" width="1180" height="400"  allowfullscreen="true"></iframe>
     </article>
-    <footer>
+    <footer class="footer">
         <div class="container">
             <p>Subscribe to our social network</p>
             <ul>
@@ -141,5 +135,32 @@
             </ul>
         </div>
     </footer>
+    <div class="container">
+        <section class="popup">
+            <h2 class="hidden">Popup</h2>
+            <form action="#" class="popup-form">
+                <div class="fieldset-double">
+                    <div class="label-wrapper">
+                        <label for="input-name">Name</label>
+                        <input class="input-popup-double" type="text" id="input-name" placeholder="Ivan Ivanov">
+                    </div>
+                    <div class="label-wrapper">
+                        <label for="input-phone">Phone</label>
+                        <input class="input-popup-double" type="tel" id="input-phone">
+                    </div>
+                </div>
+                <div class="field-inner__wrap">
+                    <div class="label-wrapper">
+                        <label for="input-email">email</label>
+                        <input type="email" id="input-email">
+                    </div>
+                    <label for="input-message">Message</label>
+                    <textarea id="input-message"></textarea>
+                </div>
+                <button type="submit" class="btn">SUBMIT</button>
+                <button type="button" class="popup-close">X</button>
+            </form>
+        </section>
+    </div>
 </body>
 </html>
