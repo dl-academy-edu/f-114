@@ -94,12 +94,17 @@
 
 .popup-form {
     display: none;
+    /* display: block; */
+    position: absolute;
+    top: 30%;
+    left: 30%;
     width: 680px;
     padding: 50px;
+    background-color: #00559D;
 }
 
 .open {
-    
+    display: block;
 }
 
 
