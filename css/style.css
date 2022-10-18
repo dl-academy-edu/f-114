@@ -93,8 +93,13 @@
 }
 
 .popup-form {
+    display: none;
     width: 680px;
     padding: 50px;
+}
+
+.open {
+    
 }
 
 
@@ -121,3 +126,4 @@ input {
 
 
 /* popup  */
+
