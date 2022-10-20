@@ -1,4 +1,4 @@
-const popup = document.querySelector('.popup-form');
+const popup = document.querySelector('.popup');
 const buttonOpen = document.querySelector('.btn-js');
 const buttonClose = document.querySelector('.popup-close');
 

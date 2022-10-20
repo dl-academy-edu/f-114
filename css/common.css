@@ -1,15 +1,12 @@
 /* Сбросил стили базовые */
-
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 21px;
-    color: #2c3036;
+    font-family: 'Open Sans', sans-serif;
 }
 
 img {
@@ -37,6 +34,24 @@ li {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 110%;
+    color: #1E0606;
+}
+
+.title__over {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    color: #1E0606;
 }
 
 .btn {
@@ -77,6 +92,7 @@ li {
     align-items: center;
 }
 
-.header__contact-phone {
+.header__contact-phone,
+.header__contact-search {
     margin-right: 24px;
 }
